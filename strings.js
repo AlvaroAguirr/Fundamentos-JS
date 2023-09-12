@@ -3,6 +3,7 @@
 let miString="Este Es uN TeXTO" +'de PrUeBa';
 console.log(miString);
 
+
 console.log(miString.charAt(5));
 console.log(miString.endsWith("a"));
 console.log(miString.length);
