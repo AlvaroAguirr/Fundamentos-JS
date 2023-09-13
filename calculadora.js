@@ -32,4 +32,6 @@ const dividir =() => {
 const limpiar =() => {
     const valores = getvalues();
     result.value = '';
+    num1.value='';
+    num2.value='';
 } 
