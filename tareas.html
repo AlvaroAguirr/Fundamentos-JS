@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tareas con Javascript</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif   ;
+            display: flex;
+           background-color: #5a5d7d;
+           justify-content: center;
+           align-items:center ;
+           color: rgb(216, 218, 220); 
+        }
+#formulario{
+    padding: 50px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+border-top:10px solid #aee6b9;
+border-left: 10px solid #aee6b9;
+border-right: 10px solid #8c8146;
+border-bottom: 10px solid #8c8146;
+background-color: #6c70a0;
+margin-bottom: 60px;
+}
+.tex{
+    background-color: rgb(216, 218, 220);
+    font-size: 20px;
+    border-radius: 5px;
+    border-top:10px solid #d0c066;
+    border-left: 10px solid #d0c066;
+    border-right: 10px solid #8c8146;
+    border-bottom: 10px solid #8c8146;
+    
+}
+#tareas{
+display: block;
+border-top:10px solid #ee9bf5;
+border-left: 10px solid #ee9bf5;
+border-right: 10px solid #8c8146;
+border-bottom: 10px solid #8c8146;
+background-color: #6c70a0;
+border-radius: 5px;
+
+}
+.boton{
+border-radius:6px ;
+border : 2px solid black;
+width: 150px;
+height: 40px;
+background-color: #c2dc9f;
+}
+#tiempo{
+    background-color: rgb(216, 218, 220);
+    border-radius: 10px;
+    
+    font-size: 20px;
+    border: 3px solid;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>lista de tareas con Javascript</h1>
+        <br>
+        <div id="formulario">
+            <h2>ingresa Tarea</h2>
+            <textarea name="" id="inputTarea" cols="20" rows="5" class="tex"></textarea>
+            <h2> Hora </h2>
+            <input type="time" name="" id="tiempo">
+            <br>
+            <br>
+            <br>
+            <button onclick="addTarea()" class="boton">Agregar Tarea</button>
+        </div>
+        <div id="tareas">
+            <h2>Tareas</h2>
+            <ul></ul>
+        </div>
+    </div>
+    <script src="./tareas.js"></script>
+</body>
+</html>
