@@ -7,6 +7,7 @@ console.log(miString);
 console.log(miString.charAt(5));
 console.log(miString.endsWith("a"));
 console.log(miString.length);
+console.log("SADAS")
 console.log(miString.repeat(2));
 console.log(miString.toLowerCase());
 console.log(miString.toUpperCase());

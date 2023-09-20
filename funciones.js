@@ -17,9 +17,7 @@ funcinoes de nombre (params){
  // funcion sin paramertros sin retornos
 
  function saluda (){
-
     console.log("hellooo");
-
  }
   saluda();
 
